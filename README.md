@@ -2,11 +2,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Para ejecutar el proyecto
 
-Para instalar dependencias (usando yarn)
+Para instalar dependencias (usando yarn):
 
-### yarn install
+### `yarn install`
 
-Para inicializar el proyecto
+Para inicializar el proyecto:
 
-### yarn start
+### `yarn start`
 
