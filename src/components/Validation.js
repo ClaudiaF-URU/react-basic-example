@@ -60,12 +60,19 @@ export default class Validation extends Component {
   }
 
   login() {
-    alert("Log In Successful");
+    console.log({
+      username: this.state.username,
+      password: this.state.password
+    });
+    alert(`Log In Successful ${JSON.stringify({
+      username: this.state.username,
+      password: this.state.password
+    })}`);
   }
 
   render() {
-      console.log(this.props)
-      if (this.props.canLog) {
+    // console.log(this.props)
+    if (this.props.canLog) {
       let validUser, validPassword;
       if (!this.state.usernameValid && this.state.username != null)
         validUser = <small>Usuario invalido</small>;
