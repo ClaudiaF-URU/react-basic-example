@@ -24,11 +24,11 @@ export default class Initial extends Component {
     return (
       <div>
         <h1 className="title">Ejemplo basico React App</h1>
-        {/* <PropertiesAndState title={this.title} number="23"/>
-        <Input callbackFromParent={this.callbackToGet} />
-        <Output receiveData={this.state.dataFromChild}/>
-        <Multiple />
-        <Validation canLog={false} /> */}
+        {/* <PropertiesAndState title={this.title} number="45"/> */}
+        {/* <Input callbackFromParent={this.callbackToGet} /> */}
+        {/* <Output receiveData={this.state.dataFromChild}/> */}
+        {/* <Multiple /> */}
+        {/* <Validation canLog={true} /> */}
       </div>
     );
   }
